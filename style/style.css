@@ -56,6 +56,7 @@ body{
 }
 .content h2{
   font-weight: 900;
+  color: var(--Darkblue);
 }
 .content p{
   color: var(--Desaturatedblue);
@@ -73,13 +74,16 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 1rem;
 }
 .plan-fee{
-  padding-left: 0.8rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-end;
+}
+.plan-fee h4{
+  color: var(--Darkblue);
 }
 .plan-fee p{
   margin-bottom: 0%;
@@ -124,7 +128,10 @@ body{
     background: url(/images/pattern-background-mobile.svg) no-repeat;
     background-color: var(--Paleblue);
   }
-  html{
-    font-size: 14px;
+  .box{
+    width: 22rem;
+  }
+  .music-image{
+    width: 22rem;
   }
 }
